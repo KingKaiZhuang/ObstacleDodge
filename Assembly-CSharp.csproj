@@ -66,8 +66,10 @@
   <ItemGroup>
     <Compile Include="Assets/Scripts/ObjectHit.cs" />
     <Compile Include="Assets/Scripts/Mover.cs" />
+    <Compile Include="Assets/Scripts/Spinner.cs" />
     <Compile Include="Assets/Scripts/Dropper.cs" />
     <Compile Include="Assets/Scripts/Scorer.cs" />
+    <Compile Include="Assets/Scripts/FlyAtPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

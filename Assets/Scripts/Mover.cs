@@ -17,9 +17,9 @@ public class NewBehaviourScript : MonoBehaviour
 
     void PrintInstruction()
     {
-        Debug.Log("Welcome to the game. Use WASD or arrow keys to move the player");
-        Debug.Log("Move using arrow keys or WASD");
-        Debug.Log("Don't bump into objects!");
+        // Debug.Log("Welcome to the game. Use WASD or arrow keys to move the player");
+        // Debug.Log("Move using arrow keys or WASD");
+        // Debug.Log("Don't bump into objects!");
     }
 
     void MovePlayer()
