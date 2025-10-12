@@ -70,6 +70,7 @@
     <Compile Include="Assets/Scripts/Dropper.cs" />
     <Compile Include="Assets/Scripts/Scorer.cs" />
     <Compile Include="Assets/Scripts/FlyAtPlayer.cs" />
+    <Compile Include="Assets/Scripts/TriggerProjectile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
