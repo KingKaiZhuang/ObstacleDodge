@@ -6,7 +6,7 @@ public class FlyAtPlayer : MonoBehaviour
 {
     [SerializeField] float moveSpeed = 1.0f;
     [SerializeField] Transform player;
-    Vector3 playerPosition ;
+    Vector3 playerPosition;
     // Start is called before the first frame update
     void Start()
     {
@@ -16,6 +16,20 @@ public class FlyAtPlayer : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        MoveToPlayer();
+        DestroyWhenReached();
+    }
+
+    void MoveToPlayer()
+    {
         transform.position = Vector3.MoveTowards(transform.position, playerPosition, Time.deltaTime * moveSpeed);
+    }
+
+    void DestroyWhenReached()
+    {
+        if (transform.position == playerPosition)
+        {
+            Destroy(gameObject);
+        }
     }
 }
